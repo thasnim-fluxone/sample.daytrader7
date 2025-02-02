@@ -159,7 +159,7 @@
 
     <!-- BASIC SECURITY ROLES AND CONSTRAINTS -->
 
-    <security-role>
+<!--     <security-role>
 
         <role-name>testing</role-name>
 
@@ -303,5 +303,5 @@
 
         <auth-method>BASIC</auth-method>
 
-    </login-config>	    
+    </login-config>	     -->
 </web-app>
