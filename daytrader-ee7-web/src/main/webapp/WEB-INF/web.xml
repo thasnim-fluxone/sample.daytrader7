@@ -42,7 +42,7 @@
 
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
-        <url-pattern>*.xyz</url-pattern>
+        <url-pattern>*.faces</url-pattern>
     </servlet-mapping>
 
     <session-config>
