@@ -29,7 +29,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-// @WebFilter(filterName = "JSFLoginFilter", urlPatterns = "*.faces")
+@WebFilter(filterName = "JSFLoginFilter", urlPatterns = "*.faces")
 public class JSFLoginFilter implements Filter {
 
     public JSFLoginFilter() {
