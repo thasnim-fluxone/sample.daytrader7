@@ -29,7 +29,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@WebFilter(filterName = "JSFLoginFilter", urlPatterns = "*.faces")
+// @WebFilter(filterName = "JSFLoginFilter", urlPatterns = "*.faces")
 public class JSFLoginFilter implements Filter {
 
     public JSFLoginFilter() {
@@ -63,16 +63,16 @@ public class JSFLoginFilter implements Filter {
 
         // If user has not logged in and is trying access account information,
         // redirect to login page.
-        if (userID == null) {
-            String url = request.getServletPath();
+        // if (userID == null) {
+        //     String url = request.getServletPath();
 
-            if (url.contains("home") || url.contains("account") || url.contains("portfolio") || url.contains("quote") || url.contains("order")
-                    || url.contains("marketSummary")) {
-                System.out.println("JSF service error: User Not Logged in");
-                response.sendRedirect("welcome.faces");
-                return;
-            }
-        }
+        //     if (url.contains("home") || url.contains("account") || url.contains("portfolio") || url.contains("quote") || url.contains("order")
+        //             || url.contains("marketSummary")) {
+        //         System.out.println("JSF service error: User Not Logged in");
+        //         response.sendRedirect("welcome.faces");
+        //         return;
+        //     }
+        // }
 
         chain.doFilter(req, resp/* wrapper */);
     }
