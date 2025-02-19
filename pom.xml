@@ -24,4 +24,5 @@
 		<module>daytrader-ee7-web</module>
 		<module>daytrader-ee7</module>
     </modules>
+	
 </project>
