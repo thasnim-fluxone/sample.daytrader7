@@ -18,7 +18,7 @@
           <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
           <maven.compiler.source>1.8</maven.compiler.source>
           <maven.compiler.target>1.8</maven.compiler.target>
-          <!-- Derby library -->
+          <!-- Derby library  -->
           <version.derby>10.14.2.0</version.derby>
           <derby.path>${user.home}/.m2/repository/org/apache/derby/derby</derby.path>
           <!-- Liberty configuration  -->
