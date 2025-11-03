@@ -12,6 +12,7 @@
     <properties>
         <!--  Update this to match the port number in the websocketSample server.xml
         This is needed to run the tests     -->
+
 		
         <libertyTestPort>9082</libertyTestPort>
         <skipFVT>false</skipFVT>
@@ -143,4 +144,5 @@
    </build>
 
 </project>
+
 
