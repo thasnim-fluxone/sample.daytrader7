@@ -12,6 +12,7 @@
     <properties>
         <!--  Update this to match the port number in the websocketSample server.xml
         This is needed to run the tests     -->
+		
         <libertyTestPort>9082</libertyTestPort>
         <skipFVT>false</skipFVT>
           <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -142,3 +143,4 @@
    </build>
 
 </project>
+
